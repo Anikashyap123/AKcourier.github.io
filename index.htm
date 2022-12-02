@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+
+
+
+
+
+
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+
+
+
+
+
+
+      body {
+        font-family: "Lato", sans-serif;
+      }
+
+
+      .bg-img {
+  /* The image used */
+  background-image: url("img_nature.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+
+      
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(8, 8, 8);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #f5fdfa;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #a40b0b;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+        padding: 16px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      </style>
+      </head>
+      <body>
+        
+      
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+      
+
+
+
+
+
+
+
+
+
+
+
+  <title>Courier To Career</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav id="navbar">
+        <div class="container">
+          <h1><a href="#">G3A</a></h1>
+          <ul>
+
+            <style>
+              body {font-family: Arial, Helvetica, sans-serif;}
+              
+              /* Full-width input fields */
+              input[type=text], input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+              }
+              
+              /* Set a style for all buttons */
+              button {
+                background-color: #03e61a;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+              }
+              
+              button:hover {
+                opacity: 0.8;
+              }
+              
+              /* Extra styles for the cancel button */
+              .cancelbtn {
+                width: auto;
+                padding: 10px 18px;
+                background-color: #f01111;
+              }
+              
+              /* Center the image and position the close button */
+              .imgcontainer {
+                text-align: center;
+                margin: 24px 0 12px 0;
+                position: relative;
+              }
+              
+              img.avatar {
+                width: 40%;
+                border-radius: 50%;
+              }
+              
+              .container {
+                padding: 16px;
+              }
+              
+              span.psw {
+                float: right;
+                padding-top: 16px;
+              }
+              
+              /* The Modal (background) */
+              .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                padding-top: 60px;
+              }
+              
+              /* Modal Content/Box */
+              .modal-content {
+                background-color: #fefefe;
+                margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+                border: 1px solid #888;
+                width: 80%; /* Could be more or less, depending on screen size */
+              }
+              
+              /* The Close Button (x) */
+              .close {
+                position: absolute;
+                right: 25px;
+                top: 0;
+                color: #000;
+                font-size: 35px;
+                font-weight: bold;
+              }
+              
+              .close:hover,
+              .close:focus {
+                color: red;
+                cursor: pointer;
+              }
+              
+              /* Add Zoom Animation */
+              .animate {
+                -webkit-animation: animatezoom 0.6s;
+                animation: animatezoom 0.6s
+              }
+              
+              @-webkit-keyframes animatezoom {
+                from {-webkit-transform: scale(0)} 
+                to {-webkit-transform: scale(1)}
+              }
+                
+              @keyframes animatezoom {
+                from {transform: scale(0)} 
+                to {transform: scale(1)}
+              }
+              
+              /* Change styles for span and cancel button on extra small screens */
+              @media screen and (max-width: 300px) {
+                span.psw {
+                   display: block;
+                   float: none;
+                }
+                .cancelbtn {
+                   width: 100%;
+                }
+              }
+              </style>
+              </head>
+              <body>
+              
+              <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+              
+              <div id="id01" class="modal">
+                
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                  </div>
+              
+                  <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+              
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                      
+                    <button type="submit">Login</button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                  </div>
+              
+                  <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                  </div>
+                </form>
+              </div>
+              
+              <script>
+              // Get the modal
+              var modal = document.getElementById('id01');
+              
+              // When the user clicks anywhere outside of the modal, close it
+              window.onclick = function(event) {
+                  if (event.target == modal) {
+                      modal.style.display = "none";
+                  }
+              }
+              </script>
+              
+            <style>
+              body {font-family: Arial, Helvetica, sans-serif;}
+              * {box-sizing: border-box;}
+              
+              /* Full-width input fields */
+              input[type=text], input[type=password] {
+                width: 100%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+              }
+              
+              /* Add a background color when the inputs get focus */
+              input[type=text]:focus, input[type=password]:focus {
+                background-color: #ddd;
+                outline: none;
+              }
+              
+              /* Set a style for all buttons */
+              button {
+                background-color: #16cc5c;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+              }
+              
+              button:hover {
+                opacity:1;
+              }
+              
+              /* Extra styles for the cancel button */
+              .cancelbtn {
+                padding: 14px 20px;
+                background-color: #f44336;
+              }
+              
+              /* Float cancel and signup buttons and add an equal width */
+              .cancelbtn, .signupbtn {
+                float: left;
+                width: 50%;
+              }
+              
+              /* Add padding to container elements */
+              .container {
+                padding: 16px;
+              }
+              
+              /* The Modal (background) */
+              .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: #474e5d;
+                padding-top: 50px;
+              }
+              
+              /* Modal Content/Box */
+              .modal-content {
+                background-color: #fefefe;
+                margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+                border: 1px solid #888;
+                width: 80%; /* Could be more or less, depending on screen size */
+              }
+              
+              /* Style the horizontal ruler */
+              hr {
+                border: 1px solid #f1f1f1;
+                margin-bottom: 25px;
+              }
+               
+              /* The Close Button (x) */
+              .close {
+                position: absolute;
+                right: 35px;
+                top: 15px;
+                font-size: 40px;
+                font-weight: bold;
+                color: #f1f1f1;
+              }
+              
+              .close:hover,
+              .close:focus {
+                color: #f44336;
+                cursor: pointer;
+              }
+              
+              /* Clear floats */
+              .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+              
+              /* Change styles for cancel button and signup button on extra small screens */
+              @media screen and (max-width: 300px) {
+                .cancelbtn, .signupbtn {
+                   width: 100%;
+                }
+              }
+              </style>
+              <body>
+              
+              <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+              
+              <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form class="modal-content" action="/action_page.php">
+                  <div class="container">
+                    <h1>Sign Up</h1>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+              
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                    
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+              
+                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+              
+                    <div class="clearfix">
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                      <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              
+              <script>
+              // Get the modal
+              var modal = document.getElementById('id01');
+              
+              // When the user clicks anywhere outside of the modal, close it
+              window.onclick = function(event) {
+                if (event.target == modal) {
+                  modal.style.display = "none";
+                }
+              }
+              </script>
+          </ul>
+        </div>
+      </nav>
+      <!-- Showcase Area -->
+      <div id="showcase">
+        <div class="container">
+          <div class="showcase-content">
+            <h2>G3A-Courier to Carrier</h2>
+            <p class="lead">
+                The objective of the project is to deliver an efficient Courier Management System whose main functionality apart from calculating the courier Bill includes predicting the time required to reach the destination. As per our client requirement, our main object should be managing consignment in an effective manner.
+
+                The Proposed System is eliminating all problems of the existing system. And automate all processes in high-tech.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <h3 class="bg-dark-line"><span>About Us</span></h3>
+        <p class="lead">
+            The following are some of the best characteristics you should look for in a TMS system to maximize your transportation operations.
+Route,Optimization of routing,Automation,Location Tracking (GPS Tracking),Cloud-based Document Storage,Analytics and Detailed Insights,Using an API or integration capability.
+        </p>
+        <p class="lead">
+            As suggested by the name, a courier management system helps the logistics service providers and retailers to “perform, manage, monitor, track, analyze, and plan” all the express logistics processes. 
+        </p>
+      </div>
+    </section>
+    <!-- Our Services -->
+    <div id="services">
+      <div class="container">
+        <h3 class="bg-dark-line"><span>Services</span></h3>
+        <div class="box bg-primary">
+          <h2>Consistently meet or surpass due dates and times</h2>
+          <i class="fa-solid fa-paintbrush fa-4x"></i>
+          <p class="lead">
+            More than half of online shoppers say delivery turnaround time defines a positive experience, and 89% of consumers report ditching a brand because of poor customer experience.You need to optimize delivery routes, assign deliveries
+            in priority order, and take every step you can to maximize your delivery speed if you want to have a high level of customer satisfaction.
+          </p>
+        </div>
+        <div class="box light-gray">
+          <h2>Transport products safely</h2>
+          <i class="fa-solid fa-code fa-4x"></i>
+          <p class="lead">
+            Courier management teams aren’t typically responsible for packaging goods,but they do need to make sure products are protected during transport.Depending on what you’re transporting,
+            you may need insulated bags for food storage,cushioned packaging for breakable goods, or tall dividers for flower deliveries.
+            Replan routes and send them to drivers’ phones even when they’re already in the field.
+          </p>
+        </div>
+        <div class="box bg-primary">
+          <h2>Drive efficiently</h2>
+          <i class="fa-solid fa-desktop fa-4x"></i>
+          <p class="lead">
+            Manual calculations are prone to human error and take longer than using software. Give yourself a competitive advantage by relying on courier route optimization software to calculate the most efficient routes in seconds.
+            Provide your customers with real-time tracking and live ETAs that show the minute their order will arrive.
+            Schedule drivers to return to a depot to reload without having to start a new route.
+            Seamlessly schedule drivers’ breaks.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!-- Authors -->
+    <div id="authors">
+      <div class="container">
+        <h3><span>Authors</span></h3>
+        <div class="auth">
+          <img src="./img/Authors/person1.png" alt="" />
+          <p class="names">John Doe</p>
+          <p>Admin</p>
+          <p class="lead">
+            Think Bigger 
+          </p>
+        </div>
+        <div class="auth">
+          <img src="./img/Authors/person4.png" alt="" />
+          <p class="names">Suzi</p>
+          <p>Manager</p>
+          <p class="lead">
+            Do bigger
+      </p>
+        </div>
+        <div class="auth">
+          <img src="./img/Authors/person3.png" alt="" />
+          <p class="names">Jason</p>
+          <p>Accountant</p>
+          <p class="lead">
+            Success 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <h3><span>Contact Us</span></h3>
+        <div class="contact-form">
+          <form action="process.php">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="name" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <button type="button" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer id="main-footer">
+      <div class="container">
+        <p>
+           G3A Design by 
+          <a href="https://www.w3schools.com">Guiders </a> &copy 2022
+        </p>
+      </div>
+    </footer>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    line-height: 1.7em;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    max-width: 1100px;
+    margin:auto;
+}
+
+.lead{
+    font-size: 16px;
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+.btn{
+    display: inline-block;
+    padding: 07px 16px;
+    background: rgb(29, 4, 224);;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 03px;
+    color:rgb(244, 250, 250);
+    transition: all 0.3;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Close Utality Classes */
+
+#navbar{
+    background: #4f10ff;
+    overflow: auto;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #3822fd;
+    transition: all 0.5s;
+}
+
+/* Showcase Area */
+#showcase{
+    background: url('../img/img2.jpg') no-repeat
+    center center/cover;
+    height: 600px;
+    color: #fff;
+}
+
+.showcase-content{
+    padding-top: 170px;
+    color: #333;
+}
+
+.showcase-content h2{
+   font-size: 60px;
+   line-height: 1.9em;
+ }
+
+ .showcase-content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+
+ .showcase-content .btn:hover{
+    background: #01c74a;
+    border: none;
+    color:#fff;
+    transition: all 0.3s;
+ }
+
+/* About Section */
+
+ .about{
+    height: 350px;
+    margin-top: 40px;
+ }
+
+ .about h3{
+    width: 100%;
+    border-bottom: 2px solid  #ddd;
+ }
+
+ .about h3 span{
+    background:  #ddd;;
+    padding: 10px 22px;
+    color: #333;
+    text-align: center;
+    display: inline-block;
+ }
+/* Close */
+
+
+#services h3{
+    width: 100%;
+    border-bottom: 0.5px solid #ddd;;
+ }
+
+#services h3 span{
+    background: #ddd;
+    padding: 10px 22px;
+    color: #333;
+    text-align: center;
+    display: inline-block;
+ }
+
+ #services .box{
+    float: left;
+    width: 33.33%;
+    padding: 45px;
+    text-align: center;
+    margin: 30px 0px;
+ }
+
+ .bg-primary{
+ background: #265ede;
+    color: #fff;
+ }
+
+ .light-gray{
+    background: #ddd;
+ }
+
+ #services h2{
+  margin-bottom: 25px;
+ }
+
+/* Author */
+
+#authors h3{
+    width: 100%;
+    border-bottom: 0.5px solid #ddd;;
+ }
+
+ #authors h3 span{
+    background: #ddd;
+    padding: 10px 22px;
+    color: #333;
+    text-align: center;
+    display: inline-block;
+ }
+
+#authors{
+    background: url('../img/img.jpg') no-repeat center;
+    height: 600px;
+    padding-top: 40px ;
+
+ }
+
+.auth{
+    float: left;
+    height: 500px;
+    width: 33%;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 01px;
+}
+
+.auth img{
+    border-radius: 50%;
+}
+
+.names{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Contact Us */
+#contact h3{
+    width: 100%;
+    border-bottom: 0.5px solid #ddd;;
+    margin-bottom: 35px;
+}
+
+#contact h3 span{
+    background: #ddd;
+    padding: 10px 22px;
+    color: #333;
+    text-align: center;
+    display: inline-block;
+}
+
+#contact .form-group{
+    margin-bottom: 20px;
+}
+
+.contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact textarea{
+    height: 200px;
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: none;
+    border-color: #265ede;
+}
+
+
+/* Footer */
+
+#main-footer{
+    background: #265ede;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+}
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+      font-size: 17px;
+    }
+    
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+    }
+    
+    .content {
+      position: fixed;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    #myBtn {
+      width: 200px;
+      font-size: 18px;
+      padding: 10px;
+      border: none;
+      background: #000;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    #myBtn:hover {
+      background: #ddd;
+      color: black;
+    }
+  </body>
+</html>
